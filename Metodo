@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+double preco;
+Scanner ler = new Scanner(System.in);
+
+public static void main(String[] args) {
+    System.out.println("Informe o preço da mercadoria: ");
+    preco = ler.nextDouble();
+}
